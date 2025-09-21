@@ -1,46 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Guénolé's Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="font-sans bg-gray-100 text-gray-900 m-0">
-    <header class="bg-gray-900 text-white py-8 text-center">
-        <h1 class="text-4xl font-bold">Guénolé</h1>
-        <p class="text-lg mt-2">Web Developer &amp; Designer</p>
-    </header>
-    <nav class="my-4 text-center">
-        <a href="#about" class="text-gray-900 font-semibold mx-4 hover:underline">About</a>
-        <a href="#projects" class="text-gray-900 font-semibold mx-4 hover:underline">Projects</a>
-        <a href="#contact" class="text-gray-900 font-semibold mx-4 hover:underline">Contact</a>
-    </nav>
-    <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
-        <section id="about" class="mb-10">
-            <h2 class="text-2xl font-bold mb-2">About Me</h2>
-            <p>Hello! I'm Guénolé, a passionate web developer specializing in building modern, responsive websites and applications. I love turning ideas into reality using code.</p>
-        </section>
-        <section id="projects" class="mb-10">
-            <h2 class="text-2xl font-bold mb-4">Projects</h2>
-            <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                <div class="bg-gray-50 p-4 rounded shadow">
-                    <h3 class="font-semibold text-lg mb-1">Project One</h3>
-                    <p>A brief description of your project goes here.</p>
-                </div>
-                <div class="bg-gray-50 p-4 rounded shadow">
-                    <h3 class="font-semibold text-lg mb-1">Project Two</h3>
-                    <p>A brief description of your project goes here.</p>
-                </div>
-                <div class="bg-gray-50 p-4 rounded shadow">
-                    <h3 class="font-semibold text-lg mb-1">Project Three</h3>
-                    <p>A brief description of your project goes here.</p>
-                </div>
+<body class="font-sans bg-gray-900 text-gray-900 m-0">
+    <div class="container mx-auto"></div>
+        <header class="text-white py-4 px-6 flex items-center justify-between">
+            <div>
+                <h1 class="text-4xl font-bold">Guénolé</h1>
+                <h2 class="text-lg">Ingénieur aérospatial en informatique</h2>
+            </div>
+            <nav class="flex-1 flex justify-center gap-16">
+                <a href="#Apropos" class="text-gray-100 font-semibold mx-4 hover:underline">A propos</a>
+                <a href="#projets" class="text-gray-100 font-semibold mx-4 hover:underline">Projets</a>
+                <a href="#contact" class="text-gray-100 font-semibold mx-4 hover:underline">Contact</a>
+            </nav>
+            <div class="text-gray-900">
+                <h1 class="text-4xl font-bold">Guénolé</h1>
+                <h2 class="text-lg">Ingénieur aérospatial en informatique</h2>
+            </div>
+        </header>
+    </div>
+
+    <div class="max-w-6xl mx-auto bg-gray-900 p-8 rounded-lg shadow-md">
+        <section id="Apropos" class="mb-10 text-white flex items-center justify-center gap-8">
+            <img src="https://symbl-cdn.com/i/webp/f1/f43c332732e8e9ae33aeed26c7352d.webp" alt="Profile Picture" class="w-64 h-64">
+            <div class="max-w-5xl px-8 flex flex-col">
+                <h2 class="text-2xl font-bold mb-4 text-center">A propos de moi</h2>
+                <p>Hello! I'm Guénolé, a passionate web developer specializing in building modern, responsive websites and applications. I love turning ideas into reality using code.</p>
             </div>
         </section>
-        <section id="contact">
-            <h2 class="text-2xl font-bold mb-2">Contact</h2>
-            <p>Email: <a href="mailto:your.email@example.com" class="text-blue-600 hover:underline">your.email@example.com</a></p>
+        <section id="projets" class="mb-10">
+            <h2 class="text-2xl font-bold mb-4 text-white ">Projets</h2>
+            <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="bg-gray-900 p-4 rounded relative group">
+                    <h3 class="font-semibold text-lg mb-1 text-center text-white">Génération de nomenclature aéronautique</h3>
+                    <img src="img/InvPoussee.png" alt="Project Image" class="w-full h-auto object-cover mb-2 rounded">
+                    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded">
+                        <a href="https://search.brave.com/search?q=tailwind+center+text&summary=1&conversation=1490fafd3055ee57cb5c27" class="w-full h-full text-white text-lg flex items-center justify-center font-semibold">Voir projet</a>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded relative group">
+                    <h3 class="font-semibold text-lg mb-1 text-center">Synthèse visuelle des opérations satellites</h3>
+                    <img src="https://symbl-cdn.com/i/webp/f1/f43c332732e8e9ae33aeed26c7352d.webp" alt="Project Image" class="w-full h-auto object-cover mb-2 rounded">
+                    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded">
+                        <a href="https://search.brave.com/search?q=tailwind+center+text&summary=1&conversation=1490fafd3055ee57cb5c27" class="w-full h-full text-white text-lg flex items-center justify-center font-semibold">Voir projet</a>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded relative group">
+                    <h3 class="font-semibold text-lg mb-1 text-center">Gestion des logs de mécanique spatiale</h3>
+                    <img src="https://symbl-cdn.com/i/webp/f1/f43c332732e8e9ae33aeed26c7352d.webp" alt="Project Image" class="w-full h-auto object-cover mb-2 rounded">
+                    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded">
+                        <a href="https://search.brave.com/search?q=tailwind+center+text&summary=1&conversation=1490fafd3055ee57cb5c27" class="w-full h-full text-white text-lg flex items-center justify-center font-semibold">Voir projet</a>
+                    </div>
+                </div>
+        </section>
+        <section id="contact" class="text-white">
+            <h2 class="text-2xl font-bold mb-2 ">Contact</h2>
+            <p>Email: <a href="mailto:guenole.marzin@gmail.com" class="text-blue-600 hover:underline">guenole.marzin@gmail.com</a></p>
         </section>
     </div>
     <footer class="text-center py-4 bg-gray-900 text-white mt-8">
